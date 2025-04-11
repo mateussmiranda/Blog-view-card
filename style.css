@@ -103,11 +103,10 @@ body {
 }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-
 /* Responsividade sem alterar a largura do container */
 @media (max-width: 480px) {
 body {
-    padding: 20px; /* espaço lateral em telas pequenas */
+    padding: 20px;
 }
 
 .title {
@@ -127,6 +126,6 @@ body {
 }
 
 .container {
-  box-shadow: 5px 5px 0 black; /* suaviza sombra em telas pequenas */
+    box-shadow: 5px 5px 0 black; 
     }
 }
